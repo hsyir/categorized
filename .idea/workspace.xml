@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e47ff7-c9f0-4315-b599-8b5b33b158c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/categorize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CategoryManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Facades/Categorize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Models/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/CategorizeCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/CategorizedTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Traits/RetrieveCategorizeDescendants.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/2019_12_19_074200_create_categorizes_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ServiceProvider.php" afterPath="$PROJECT_DIR$/src/ServiceProvider.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="1166" />
+    <option name="totalTimeSeconds" value="1890" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -33,21 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="192">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceProvider.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2019_12_19_074200_create_categorizes_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/2019_12_19_074200_create_categorizes_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceProvider.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -116,7 +122,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/CategoryManager.php" />
-        <option value="$PROJECT_DIR$/src/ServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/Models/Category.php" />
         <option value="$PROJECT_DIR$/src/Facades/Categories.php" />
         <option value="$PROJECT_DIR$/src/Traits/CategoriesCache.php" />
@@ -124,6 +129,8 @@
         <option value="$PROJECT_DIR$/src/Traits/RetrieveCategorizeDescendants.php" />
         <option value="$PROJECT_DIR$/src/Traits/CategorizedTrait.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/database/2019_12_19_074200_create_categorizes_table.php" />
+        <option value="$PROJECT_DIR$/src/ServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -162,6 +169,21 @@
               <item name="categories" type="b2602c69:ProjectViewProjectNode" />
               <item name="categories" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="categories" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categories" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="categories" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categories" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="categories" type="b2602c69:ProjectViewProjectNode" />
+              <item name="categories" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,6 +198,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\packages\categories\database" />
       <recent name="D:\wamp64\www\packages\categories" />
     </key>
   </component>
@@ -201,12 +224,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599278094459</updated>
-      <workItem from="1599278096022" duration="1669000" />
+      <workItem from="1599278096022" duration="2820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1669000" />
+    <option name="totallyTimeSpent" value="2820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -254,14 +277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -330,8 +345,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="192">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/2019_12_19_074200_create_categorizes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding />
         </state>
       </provider>
