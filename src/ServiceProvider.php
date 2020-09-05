@@ -1,6 +1,6 @@
 <?php
 
-namespace Hsy\Categories;
+namespace Hsy\Categorize;
 
 use Illuminate\Support\ServiceProvider as SP;
 
@@ -23,7 +23,7 @@ class ServiceProvider extends SP
      */
     public function boot()
     {
-        
+
         $this->publishes([__DIR__ . '/../config/categorize.php' => config_path('categorize.php'),], 'config');
 
         $this->publishes([
