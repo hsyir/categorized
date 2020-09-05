@@ -4,11 +4,11 @@ namespace Hsy\Categorize\Models;
 
 use Cviebrock\EloquentSluggable\Services\SlugService;
 use Cviebrock\EloquentSluggable\Sluggable;
-use Jenssegers\Mongodb\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 use Kalnoy\Nestedset\NodeTrait;
 use Spatie\Translatable\HasTranslations;
 
-class Category extends Model
+class Categorize extends Model
 {
     use HasTranslations,Sluggable, NodeTrait {
         NodeTrait::replicate as replicateNode;
