@@ -23,6 +23,7 @@ class ServiceProvider extends SP
      */
     public function boot()
     {
+        
         $this->publishes([__DIR__ . '/../config/categorize.php' => config_path('categorize.php'),], 'config');
 
         $this->publishes([
