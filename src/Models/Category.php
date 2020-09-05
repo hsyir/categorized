@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Kalnoy\Nestedset\NodeTrait;
 use Spatie\Translatable\HasTranslations;
 
-class Categorize extends Model
+class Category extends Model
 {
     use HasTranslations,Sluggable, NodeTrait {
         NodeTrait::replicate as replicateNode;

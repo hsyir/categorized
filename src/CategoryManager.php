@@ -8,5 +8,6 @@ use Hsy\Categorize\Traits\RetrieveCategorizeDescendants;
 
 class CategoryManager
 {
-    use CategorizeCache, RetrieveCategorizeDescendants,InitAndManageRoots;
+    use RetrieveCategorizeDescendants;
+    use InitAndManageRoots;
 }

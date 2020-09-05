@@ -13,7 +13,7 @@ class ServiceProvider extends SP
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/categorize.php', 'categorize');
+        $this->mergeConfigFrom(__DIR__ . '/../config/categories.php', 'categories');
     }
 
     /**
@@ -24,7 +24,7 @@ class ServiceProvider extends SP
     public function boot()
     {
 
-        $this->publishes([__DIR__ . '/../config/categorize.php' => config_path('categorize.php'),], 'config');
+        $this->publishes([__DIR__ . '/../config/categories.php' => config_path('categories.php'),], 'config');
 
         $this->publishes([
             __DIR__ . '/../database/' => database_path('migrations')

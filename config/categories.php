@@ -1,6 +1,6 @@
 <?php
 return [
-    'model' => \Hsy\Categorize\Models\Categorize::class,
+    'model' => \Hsy\Categorize\Models\Category::class,
     'roots' => [
         "posts" => "نوشته ها",
         "products" => "کالا ها",
