@@ -1,0 +1,2 @@
+# categorize
+Laravel categories package
