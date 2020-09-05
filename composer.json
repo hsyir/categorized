@@ -1,0 +1,32 @@
+{
+    "name": "hsyir/categorized",
+    "description": "Laravel categorize package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hossein",
+            "email": "hosseinyaghmaee@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "kalnoy/nestedset": "^5.0",
+        "cviebrock/eloquent-sluggable": "^7.0",
+        "spatie/laravel-translatable": "^4.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hsy\\Categorize\\ServiceProvider"
+            ],
+            "aliases": {
+                "Options": "Hsy\\Categorize\\Facades\\Categorize"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Hsy\\Categorize\\": "src/"
+        }
+    }
+}
