@@ -16,8 +16,8 @@ trait InitAndManageRoots
 
     public function createRoots()
     {
-        $rootsInConfig = config("categorize.roots");
-        $catModel = config("categorize.model");
+        $rootsInConfig = config("categories.roots");
+        $catModel = config("categories.model");
         foreach ($rootsInConfig as $rootName => $rootTitle) {
             $catModel::firstOrCreate(["name" => $rootName], ["title" => $rootTitle]);
         }
@@ -26,10 +26,10 @@ trait InitAndManageRoots
 
     public function removeUndefinedRoots()
     {
-        $catModel = config("categorize.model");
+        $catModel = config("categories.model");
         $roots = $catModel::all();
         foreach ($roots as $root) {
-            if (!config()->has("categorize.roots." . $root->name))
+            if (!config()->has("categories.roots." . $root->name))
                 $root->delete();
         }
         return true;
