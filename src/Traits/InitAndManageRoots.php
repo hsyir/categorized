@@ -2,12 +2,11 @@
 
 namespace Hsy\Categorize\Traits;
 
+
 use Hsy\Categorize\Models\Category;
 
 trait InitAndManageRoots
 {
-    use CategorizeCache;
-
     public function syncRoots()
     {
         $this->createRoots();

@@ -7,7 +7,6 @@ namespace Hsy\Categorize\Traits;
 
 trait  RetrieveCategorizeDescendants
 {
-    use CategorizeCache;
     public function getTreeArray($node, $withSelf = false)
     {
         return $this->abs(

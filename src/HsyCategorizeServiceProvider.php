@@ -4,7 +4,7 @@ namespace Hsy\Categorize;
 
 use Illuminate\Support\ServiceProvider as SP;
 
-class ServiceProvider extends SP
+class HsyCategorizeServiceProvider extends SP
 {
     /**
      * Register services.
@@ -14,6 +14,9 @@ class ServiceProvider extends SP
     public function register()
     {
         $this->mergeConfigFrom(__DIR__ . '/../config/categories.php', 'categories');
+
+        $this->registerFacades();
+        $this->registerConfigs();
     }
 
     /**
@@ -29,5 +32,15 @@ class ServiceProvider extends SP
         $this->publishes([
             __DIR__ . '/../database/' => database_path('migrations')
         ], 'migrations');
+    }
+
+    private function registerFacades()
+    {
+        app()->singleton("Categorize",CategoryManager::class);
+    }
+
+    private function registerConfigs()
+    {
+        $this->mergeConfigFrom(__DIR__."/../config/categories.php","categorize");
     }
 }

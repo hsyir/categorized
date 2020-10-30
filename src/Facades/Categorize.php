@@ -8,6 +8,6 @@ class Categorize extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return CategoryManager::class;
+        return "Categorize";
     }
 }

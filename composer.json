@@ -9,10 +9,10 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": ">=7.4",
         "kalnoy/nestedset": "^5.0",
-        "cviebrock/eloquent-sluggable": "^7.0",
-        "spatie/laravel-translatable": "^4.3"
+        "cviebrock/eloquent-sluggable": "^8.0",
+        "spatie/laravel-translatable": "^4.5"
     },
     "extra": {
         "laravel": {
@@ -27,6 +27,14 @@
     "autoload": {
         "psr-4": {
             "Hsy\\Categorize\\": "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hsy\\Categorize\\Tests\\": "tests"
         }
     }
 }
