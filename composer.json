@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hsy\\Categorize\\ServiceProvider"
+                "Hsy\\Categorize\\HsyCategorizeServiceProvider"
             ],
             "aliases": {
                 "Options": "Hsy\\Categorize\\Facades\\Categorize"
