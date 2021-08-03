@@ -18,6 +18,7 @@ trait  RetrieveCategorizeDescendants
             }
         );
     }
+
     public function getTree($node, $withSelf = false)
     {
         return $this->abs(
@@ -44,8 +45,11 @@ trait  RetrieveCategorizeDescendants
 
     private function abs($node, $withSelf, $cacheKey, $call)
     {
-        if (cache()->tags(["categories"])->has($cacheKey))
-            return cache()->tags(["categories"])->get($cacheKey);
+        if(config("categories.cache") === true){
+            if (cache()->tags(["categories"])->has($cacheKey))
+                return cache()->tags(["categories"])->get($cacheKey);
+        }
+
 
         $descendants = $this->getDescendants($node, $withSelf);
         $nodes = $call($descendants);
