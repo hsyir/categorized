@@ -10,9 +10,9 @@
     ],
     "require": {
         "php": ">=7.4",
-        "kalnoy/nestedset": "^5.0",
         "cviebrock/eloquent-sluggable": "^8.0",
-        "spatie/laravel-translatable": "^4.5"
+        "kalnoy/nestedset": "^6.0",
+        "spatie/laravel-translatable": "^4.6"
     },
     "extra": {
         "laravel": {
@@ -30,11 +30,15 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "^6.3"
+        "orchestra/testbench": "^6.3",
+        "laravel/legacy-factories": "^1.0.4"
     },
     "autoload-dev": {
         "psr-4": {
             "Hsy\\Categorize\\Tests\\": "tests"
         }
+    },
+    "scripts": {
+        "test": "php vendor/phpunit/phpunit/phpunit"
     }
 }
