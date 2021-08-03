@@ -30,7 +30,7 @@ class HsyCategorizeServiceProvider extends SP
         $this->publishes([__DIR__ . '/../config/categories.php' => config_path('categories.php'),], 'config');
 
         $this->publishes([
-            __DIR__ . '/../database/' => database_path('migrations')
+            __DIR__ . '/../database/migrations' => database_path('migrations')
         ], 'migrations');
     }
 
