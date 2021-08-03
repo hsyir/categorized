@@ -9,10 +9,10 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "cviebrock/eloquent-sluggable": "^8.0",
         "kalnoy/nestedset": "^6.0",
-        "spatie/laravel-translatable": "^4.6"
+        "spatie/laravel-translatable": "^5.0"
     },
     "extra": {
         "laravel": {
