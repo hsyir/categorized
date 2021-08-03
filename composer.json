@@ -30,8 +30,8 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "^6.3",
-        "laravel/legacy-factories": "^1.0.4"
+        "laravel/legacy-factories": "^1.0.4",
+        "orchestra/testbench": "^6.19"
     },
     "autoload-dev": {
         "psr-4": {
